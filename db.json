@@ -1,0 +1,14 @@
+{
+    "plays": [
+        {
+            "id": "1",
+            "name": "Missle",
+            "style": "RPO"
+        },
+        {
+            "id": "2",
+            "name": "Bubble",
+            "style": "RPO"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+.home-card {
+    width: 49%;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+    height: 200px;
+}
+
+.home-container {
+    display: flexbox;
+    width: 49%;
+    justify-content: space-around;
+}
+

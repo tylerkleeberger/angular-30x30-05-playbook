@@ -1,0 +1,16 @@
+<div class="items-container">
+  <div class="items-list">
+    <app-plays-list
+    [plays]="plays$ | async"
+    (selected)="selectPlay($event)"
+    (deleted)="deletePlay($event)">
+    </app-plays-list>
+  </div>
+  <div class="item-details">
+    <app-play-details
+    [play]="selectedPlay"
+    (cancelled)="reset()"
+    (saved)="savePlay($event)">
+    </app-play-details>
+  </div>
+</div>
